@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  form.d-inline {
+    display: inline;
+    margin-left: 10px;
+  }
+  

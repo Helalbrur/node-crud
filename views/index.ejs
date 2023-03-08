@@ -1,0 +1,27 @@
+
+  <div class="container">
+    <h1>Node CRUD App</h1>
+    <table class="table table-bordered table-responsive-md table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% mobiles.forEach(mobile => { %>
+          <tr>
+            <td><%= mobile.name %></td>
+            <td>
+              <a href="/edit/<%= mobile.id %>" class="btn btn-primary">Edit</a>
+              <form method="POST" action="/delete/<%= mobile.id %>" class="d-inline">
+                <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+            </td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <a href="/create" class="btn btn-success">Add Mobile</a>
+  </div>
+ 

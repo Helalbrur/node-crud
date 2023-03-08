@@ -1,0 +1,35 @@
+{
+  "name": "js-crud-operation",
+  "version": "1.0.0",
+  "description": "Node.js crud operation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "sequelize",
+    "mariadb",
+    "crud",
+    "ejs"
+  ],
+  "author": "Helal Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "admin-lte": "^3.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "glyphicons": "^0.2.0",
+    "mariadb": "^3.1.0",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0"
+  }
+}
